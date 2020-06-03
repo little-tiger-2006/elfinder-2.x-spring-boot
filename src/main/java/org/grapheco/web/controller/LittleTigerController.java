@@ -8,7 +8,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.apache.commons.lang3.StringUtils;
-import org.grapheco.web.servlet.VolumesProperties;
+import org.grapheco.web.config.VolumesProperties;
 
 /**
  * @date：2020年05月01日 上午11:43:26

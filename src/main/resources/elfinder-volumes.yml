@@ -1,0 +1,15 @@
+com:
+    little:
+        tiger:
+            userFilePath: /userfiles/
+            volumes:
+            -   id: files
+                path: /files
+                title: files
+            -   id: shared
+                path: /shared
+                title: shared
+            -   id: images
+                path: /images
+                subdirectory: photo;cards;
+                title: images

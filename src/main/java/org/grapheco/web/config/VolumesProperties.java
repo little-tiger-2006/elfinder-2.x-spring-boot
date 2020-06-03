@@ -1,4 +1,4 @@
-package org.grapheco.web.servlet;
+package org.grapheco.web.config;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 @ConfigurationProperties(prefix = "com.little.tiger")
 //如果只有一个主配置类文件，@PropertySource可以不写
-@PropertySource("classpath:volumes.properties")
+@PropertySource(value="classpath:elfinder-volumes.yml", encoding = "UTF-8", factory = YamlPropertyLoaderFactory.class)
 public class VolumesProperties {
     private List<Map<String,String>> volumes = new ArrayList<>();
     private String userFilePath;

@@ -17,6 +17,7 @@ import org.grapheco.elfinder.impl.FsSecurityCheckForAll;
 import org.grapheco.elfinder.impl.StaticFsServiceFactory;
 import org.grapheco.elfinder.localfs.LocalFsVolume;
 import org.grapheco.elfinder.service.FsItem;
+import org.grapheco.web.config.VolumesProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
