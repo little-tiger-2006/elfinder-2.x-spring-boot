@@ -2,10 +2,11 @@
 a web image manager based on spring boot + freemarker + elfinder 2.x + jquery ui
 
 Technologies:
--Java Development Kit 8 
--Spring Boot 1.5.22 with freemarker 
--Elfinder  2.1.39 
--Jquery-ui 1.12.1
+1)Java Development Kit 8 ;
+2)Spring Boot 1.5.22 with freemarker ;
+3)Jquery-ui 1.12.1 ;
+4)Elfinder  2.1.39 ;
+
 
 Overview of differences and usage with servlet versions:
 
