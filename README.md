@@ -1,6 +1,12 @@
 # elfinder-2.x-spring-boot
 a web image manager based on spring boot + freemarker + elfinder 2.x + jquery ui
 
+Technologies:
+-Java Development Kit 8 
+-Spring Boot 1.5.22 with freemarker 
+-Elfinder  2.1.39 
+-Jquery-ui 1.12.1
+
 Overview of differences and usage with servlet versions:
 
 1.the servlet .xml file split into 2 spring-boot config files.
